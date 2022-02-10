@@ -14,87 +14,96 @@
   "success_url": "https://t.me/LUXCLUB_SERGIO",
       "env": {
              "API_ID": {
-        "description": "Fill Api ID Take this value from my.telegram.org",
+        "description": "Fill Api ID - Take This Value From My.telegram.org",
         "value": "",
         "required": true
       },
       "ALIVE_PIC": {
-        "description": "your alive pic or video",
+        "description": "Your Custom Alive Pic or Video",
         "value": "",
         "required": false
       },
       "API_HASH": {
-        "description": "Fill Api hash Take this value from My.telegram.org",
+        "description": "Fill ApiHash - Take This Value From my.telegram.org",
         "value": "",
         "required": true
       },
+     "CMD_HNDLR": {
+            "description": "Custom Command Handler. Like ! / _ etc.",
+            "value": "!",
+            "required": false
+        },
       "BOT_TOKEN": {
-        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "description": "Telegram Bot Token Get This Value From https://t.me/BotFather",
         "value": "",
         "required": true
       },
       "BOT_TOKEN2": {
-        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "description": "Telegram Bot Token Get This Value From https://t.me/BotFather",
         "value": "",
-        "required": false
+        "required": true
       },
       "BOT_TOKEN3": {
-        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "description": "Telegram Bot Token Get This Value From https://t.me/BotFather",
         "value": "",
-        "required": false
+        "required": true
       },
       "BOT_TOKEN4": {
-        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "description": "Telegram Bot Token Get This Value From https://t.me/BotFather",
         "value": "",
-        "required": false
+        "required": true
       },
       "BOT_TOKEN5": {
-        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "description": "Telegram Bot Token Get This Value From https://t.me/BotFather",
         "value": "",
-        "required": false
+        "required": true
       },
       "BOT_TOKEN6": {
-        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "description": "Telegram Bot Token Get This Value From https://t.me/BotFather",
         "value": "",
-        "required": false
+        "required": true
       },
       "BOT_TOKEN7": {
-        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "description": "Telegram Bot Token Get This Value From https://t.me/BotFather",
         "value": "",
-        "required": false
+        "required": true
       },
       "BOT_TOKEN8": {
-        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "description": "Telegram Bot Token Get This Value From https://t.me/BotFather",
         "value": "",
-        "required": false
+        "required": true
       },
       "BOT_TOKEN9": {
-        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "description": "Telegram Bot Token Get This Value From https://t.me/BotFather",
         "value": "",
-        "required": false
+        "required": true
       },
       "BOT_TOKEN10": {
-        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "description": "Telegram Bot Token Get This Value From https://t.me/BotFather",
         "value": "",
-        "required": false
+        "required": true
       },
        "SUDO_USER": {
-            "description": "Sudo users id space by space",
+            "description": "Sudo Users Id (Space by Space If More Than One)",
+            "value": "1695903312",
+            "required": false
+        },
+      "OWNER_ID": {
+            "description": "Owner Id",
             "value": "",
             "required": true
         },
         "HEROKU_API_KEY": {
-            "description": "Your Heroku api key to update your bot",
+            "description": "Your Heroku Api Key To Update Your Bot",
             "value": "",
             "required": false 
         },
         "HEROKU_APP_NAME": {
-            "description": "Your app name to Update your bot",
+            "description": "Your App Name To Update Your Bot",
           "value": "",
           "required": false  
         }
     },
-
   "addons": [
     {
       "plan": "heroku-postgresql",
@@ -103,7 +112,7 @@
       }
     }
   ],
-    "buildpacks": [
+  "buildpacks": [
         {
             "url": "heroku/python"
         }
