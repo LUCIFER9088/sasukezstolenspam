@@ -109,7 +109,7 @@ async def ping(e):
 @Riz10.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        text = "**Restarting 𝗟𝗨𝗫𝗖𝗟𝗨𝗕 𝗦𝗣𝗔𝗠𝗠𝗘𝗥 𝗦𝗔𝗦𝗨𝗞𝗘**.. Please Wait Until It Heals His Bounds"
+        text = "**Restarting 𝗟𝗨𝗫𝗖𝗟𝗨𝗕 𝗦𝗣𝗔𝗠𝗠𝗘𝗥 𝗦𝗔𝗦𝗨𝗞𝗘**.. Please Wait Until He Heals His Bounds"
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await Riz.disconnect()
